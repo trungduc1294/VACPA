@@ -1,0 +1,157 @@
+doctype html 
+head 
+  title Signup Page
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href='/dist/style.css', rel='stylesheet')
+body 
+  .signup_page
+    .signup_header
+      h1 Đăng ký tài khoản 
+      span.signup_header_description
+        |Vui lòng nhập đầy đủ thông tin đăng ký. Trường có dấu 
+        span.red-asterisk * 
+        |là bắt buộc.
+    .signup_progress 
+      .completed_signup 
+      .uncompleted_signup
+    //- .role_selection_web
+    //-   ul 
+    //-     li Hội Viên tổ chức
+    //-     li Hội Viên cá nhân
+    //-     li Doanh nghiệp kiểm toán
+    //-     li Kiểm toán viên 
+    //-     li Kế toán viên
+    //-     li Người quan tâm 
+    //-     li Chi nhánh 
+    .role_selection_mobile 
+      select#role_selection(name="role_selection")
+        option(value="1") Hội viên tổ chức
+        option(value="2") Hội viên cá nhân
+        option(value="3") Doanh nghiệp kiểm toán
+        option(value="4") Kiểm toán viên
+        option(value="5") Kế toán viên
+        option(value="6") Người quan tâm
+        option(value="7") Chi nhánh
+    .signup_form 
+      //- form(action='/signup', method='post')
+      form(action="", method="post")
+        .form_part 
+          .form_part_title 
+            h2 THÔNG TIN DOANH NGHIỆP 
+          .form_part_content 
+            .form_group 
+              label(for="company_name").float_up_label Tên doanh nghiệp *
+              input(type="text", name="company_name", id="company_name")
+            .form_group
+              label(for="short_name").float_up_label Tên viết tắt *
+              input(type="text", name="short_name", id="short_name")
+            .form_group
+              label(for="english_name").float_up_label Tên tiếng anh 
+              input(type="text", name="english_name", id="english_name")
+            .form_group 
+              label.float_up_label(for="business_type") Loại hình kinh doanh *
+              select#business_type.selection_input(name="business_type") 
+                option(value="")   
+                option(value="1") 1 
+                option(value="2") 2
+            .form_group 
+              label(for="company_number").float_up_label Số hiệu công ty (Do BTC quy định) *
+              input(type="text", name="company_number", id="company_number")
+            .form_group.country_selection_group
+              h3 Doanh nghiệp
+              .country_selection_input
+                .domestic
+                  input#in_country(type="radio", name="country")
+                  label(for="in_country") Trong nước 
+                .foreign
+                  input#out_country(type="radio", name="country")
+                  label(for="out_country") Nước ngoài
+            .form_group
+              label(for="base_address").float_up_label Địa chỉ trụ sở chính *
+              input(type="text", name="base_address", id="base_address")
+            .form_group
+              label.float_up_label(for="province") Tỉnh/Thành phố *
+              select#province.selection_input(name="province")
+                option(value="")   
+                option(value="1") 1
+                option(value="2") 2
+            .form_group
+              label.float_up_label(for="district") Quận/Huyện *
+              select#district.selection_input(name="district")
+                option(value="")   
+                option(value="1") 1
+                option(value="2") 2
+            .form_group
+              label.float_up_label(for="ward") Phường/Xã *
+              select#ward.selection_input(name="ward")
+                option(value="")   
+                option(value="1") 1
+                option(value="2") 2
+            .form_group
+              label(for="establish_date").float_up_label Ngày thành lập *
+              input(type="date", name="establish_date", id="establish_date")
+            .form_group 
+              label(for="branch").float_up_label Chi nhánh
+              input(type="text" name="branch" id="branch" )
+            .form_group
+              label(for="phone_number").float_up_label Số điện thoại *
+              input(type="text", name="phone_number", id="phone_number")
+            .form_group 
+              label(for="email").float_up_label Email *
+              input(type="text", name="email", id="email")
+            .form_group 
+              label(for="fax").float_up_label Fax
+              input(type="text", name="fax", id="fax")
+            .form_group 
+              label(for="website").float_up_label Website
+              input(type="text", name="website", id="website")
+            .form_group 
+              label(for="social_network").float_up_label Mạng xã hội
+              input(type="text", name="social_network", id="social_network")
+            .form_group 
+              label(for="business_certificate").float_up_label Giấy chứng nhận đăng ký kinh doanh*
+              input(type="text", name="business_certificate", id="business_certificate")
+            .form_group 
+              label(for="license_date").float_up_label Ngày cấp *
+              input(type="date", name="license_date", id="license_date")
+            .form_group 
+              label(for="license_number").float_up_label Số giấy chứng nhận đủ điều kiện KĐV kiểm toán
+              input(type="text", name="license_number", id="license_number")
+            .form_group 
+              label(for="license_number_date").float_up_label Ngày cấp
+              input(type="date", name="license_number_date", id="license_number_date")
+            .form_group 
+              label(for="tax_code").float_up_label Mã số thuế*
+              input(type="text", name="tax_code", id="tax_code")
+            .form_group 
+              label(for="business_field").float_up_label Lĩnh vực hoạt động *
+              input(type="text", name="business_field", id="business_field")
+        .form_part
+          .form_part_title 
+            h1 DOANH NGHIỆP ĐỦ ĐIỀU KIỆN KIỂM TOÁN ĐƠN VỊ
+          .form_part_content
+            .form_group 
+              label(for="public_interes").float_up_label Có lợi ích công chúng năm 
+              input(type="text", name="public_interest", id="public_interest")
+            .form_group
+              label(for="stock_field").float_up_label Trong lĩnh vực chứng khoán năm 
+              input(type="text", name="stock_field", id="stock_field")
+            .form_group
+              label(for="international_audit").float_up_label Doanh nghiệp là thành viên hãng kiểm toán quốc tế 
+              input(type="text", name="international_audit", id="international_audit")
+            .form_group
+              label(for="staff").float_up_label Tổng số người làm việc tại doanh nghiệp 
+              input(type="text", name="staff", id="staff")
+            .form_group 
+              label(for="certificated_staffs").float_up_label Tổng số người có chứng chỉ KTV
+              input(type="text", name="certificated_staff", id="certificated_staff")
+            .form_group 
+              label(for="registered_staffs").float_up_label Tổng số KTV đăng ký hành nghề
+              input(type="text", name="registered_staff", id="registered_staff")
+            .form_group
+              label(for="partner").float_up_label Tổng số hội viên cá nhân 
+              input(type="text", name="partner", id="partner")
+        button(type="submit") (1/3) Tiếp theo
+        
+        
+

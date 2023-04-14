@@ -1,0 +1,157 @@
+// h1 typography
+.h1-bold {
+  @apply text-5xl font-bold leading-17;
+}
+
+.h1-semibold {
+  @apply text-5xl font-semibold leading-17;
+}
+
+// h2 typography
+.h2-bold {
+  @apply text-40 font-bold leading-15;
+}
+
+.h2-semibold {
+  @apply text-40 font-semibold leading-15;
+}
+
+// h3 typography
+.h3-bold {
+  @apply text-32 font-bold leading-[2.875rem]; //linehight 46px
+}
+
+.h3-semibold {
+  @apply text-32 font-semibold leading-[2.875rem]; //linehight 46px
+}
+
+.h3-regular {
+  @apply text-32 font-normal leading-[2.875rem]; //linehight 46px
+}
+
+// h4 typography
+.h4-bold {
+  @apply text-24 font-bold leading-9; //linehight 36px
+}
+
+.h4-semibold {
+  @apply text-24 font-semibold leading-9; //linehight 36px
+}
+
+.h4-regular {
+  @apply text-24 font-normal leading-9; //linehight 36px
+}
+
+// h5 typography
+.h5-bold {
+  @apply text-20 font-bold leading-[1.875rem]; //linehight 30px
+}
+
+.h5-semibold {
+  @apply text-20 font-semibold leading-[1.875rem]; //linehight 30px
+}
+
+.h5-regular {
+  @apply text-20 font-normal leading-[1.875rem]; //linehight 30px
+}
+
+.h5-uppercase-regular {
+  @apply text-20 font-normal leading-[1.875rem] uppercase; //linehight 30px
+}
+
+// Body typography
+.body-bold {
+  @apply text-base font-bold leading-6;
+}
+
+.body-semibold {
+  @apply text-base font-semibold leading-6;
+}
+
+.body-regular {
+  @apply text-base font-normal leading-6;
+}
+
+.body-uppercase {
+  @apply text-base font-normal leading-6 uppercase;
+}
+
+.body-underline {
+  @apply text-base font-normal leading-6 underline;
+}
+
+// Body small typography
+.body-small-bold {
+  @apply text-sm font-bold leading-[1.375rem]; // linehight 22px
+}
+
+.body-small-semibold {
+  @apply text-sm font-semibold leading-[1.375rem]; // linehight 22px
+}
+
+.body-small-regular {
+  @apply text-sm font-normal leading-[1.375rem]; // linehight 22px
+}
+
+.body-small-uppercase {
+  @apply text-sm font-normal leading-[1.375rem] uppercase; // linehight 22px
+}
+
+.body-small-underline {
+  @apply text-sm font-normal leading-[1.375rem] underline; // linehight 22px
+}
+
+// Small typography
+.small-bold {
+  @apply text-xs font-bold leading-[1.125rem]; // linehight 18px
+}
+
+.small-semibold {
+  @apply text-xs font-semibold leading-[1.125rem]; // linehight 18px
+}
+
+.small-regular {
+  @apply text-xs font-normal leading-[1.125rem]; // linehight 18px
+}
+
+.small-uppercase {
+  @apply text-xs font-normal leading-[1.125rem] uppercase; // linehight 18px
+}
+
+.small-underline {
+  @apply text-xs font-normal leading-[1.125rem] underline; // linehight 18px
+}
+
+// Tiny typography
+.tiny-bold {
+  @apply text-xxs font-bold leading-4; // font-size 10px linehight 16px
+}
+
+.tiny-semibold {
+  @apply text-xxs font-semibold leading-4; // font-size 10px linehight 16px
+}
+
+.tiny-regular {
+  @apply text-xxs font-normal leading-4; // font-size 10px linehight 16px
+}
+
+.tiny-uppercase {
+  @apply text-xxs font-normal leading-4 uppercase; // font-size 10px linehight 16px
+}
+
+.tiny-underline {
+  @apply text-xxs font-normal leading-4 underline; // font-size 10px linehight 16px
+}
+
+// Title typography
+.title-bold {
+  @apply text-28 font-bold leading-[2.125rem]; // font-size 32px linehight 34px
+}
+
+.title-semibold {
+  @apply text-28 font-semibold leading-[2.125rem]; // font-size 32px linehight 34px
+}
+
+.title-regular {
+  @apply text-28 font-normal leading-[2.125rem]; // font-size 32px linehight 34px
+}

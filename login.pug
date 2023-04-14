@@ -1,0 +1,28 @@
+doctype html
+head
+    title Login Page
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='/dist/style.css', rel='stylesheet')
+body
+    .login_page
+        .login_header.signin-signup-header
+            h1 Đăng nhập 
+            .login_signup_question 
+                span Bạn chưa có tài khoản?
+                a(href='/') Đăng ký ngay
+        .login_form
+            form(action='/login', method='post')
+                input(
+                    type='text' 
+                    name='username'
+                    id='username' 
+                    placeholder='Tên đăng nhập'
+                ).form-control
+                input(
+                    type='password'
+                    name='password'
+                    id='password' 
+                    placeholder='Mật khẩu'
+                ).form-control
+                button(type='submit').button-primary Đăng nhập
+                a(href="#") Quên mật khẩu? 
