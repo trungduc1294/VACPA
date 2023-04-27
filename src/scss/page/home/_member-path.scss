@@ -1,0 +1,52 @@
+.member-path {
+  @apply bg-no-repeat;
+  @apply relative;
+  background-image: url(/images/member-path/bg.jpg);
+  @screen md {
+
+  }
+
+  @screen lg {
+
+  }
+
+  .section__bg-mask {
+    @apply absolute top-0 left-0;
+    @apply w-full h-full backdrop-blur-sm;
+    background-color: rgba(37, 47, 84, .6);
+  }
+
+  .container {
+    @apply pt-21 pb-23.5;
+    @apply relative;
+  }
+
+  .slider__item {
+    &__content {
+      @apply flex flex-col items-start;
+    }
+    &__title {
+      @apply text-h5;
+      @apply font-bold;
+      @apply text-neutral-white;
+    }
+    &__desc {
+      @apply text-body-small;
+      @apply text-neutral-500;
+      @apply mt-1 mb-3;
+    }
+
+    .btn--link {
+      @apply text-neutral-white px-0;
+    }
+
+    .btn-cta {
+      @apply mt-8;
+    }
+  }
+
+  .slider-controls {
+    @apply absolute bottom-5 left-5 md:left-10 lg:bottom-10 lg:left-0;
+    @apply flex items-center gap-3;
+  }
+}

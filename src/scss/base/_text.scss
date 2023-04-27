@@ -1,0 +1,40 @@
+.text-title {
+  @apply text-28 leading-8.5;
+}
+
+.text-tiny {
+  @apply text-3xxs leading-4;
+}
+
+.text-small {
+  @apply text-xs leading-4.5;
+}
+
+.text-body-small {
+  @apply text-sm leading-5.5;
+}
+
+.text-body {
+  @apply text-base leading-6.5;
+}
+
+.text-h5 {
+  @apply text-20 leading-7.5;
+}
+
+.text-h4 {
+  @apply text-24 leading-9;
+}
+
+.text-h3 {
+  @apply text-32 leading-11.5;
+}
+
+.text-h2 {
+  @apply text-40 leading-15;
+}
+
+.text-h1 {
+  @apply text-48 leading-17;
+}
+

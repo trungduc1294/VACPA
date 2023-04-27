@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@layer utilities {
+  @import "base/text";
+}
+
+@import "common/container";
+@import "common/container";
+@import "common/breadcrumb";
+@import "common/hero";
+@import "layout/footer";
+@import "layout/header";
+
+@import "component/button";
+@import "component/heading";
+@import "component/section";
+@import "component/form";
+@import "component/divider";
+@import "component/tab-list";
+@import "component/item-list";
+@import "component/slider";
+@import "component/auth-header";
+@import "component/banner";
+@import "component/news";
+@import "component/feature";
+@import "component/sidebar-nav";
+@import "component/logo-slider";
+
+@import "page/login";
+@import "page/signup";
+
+@import "page/home";

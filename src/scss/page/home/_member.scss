@@ -1,0 +1,10 @@
+.member-section {
+  .container {
+    @apply pt-4 lg:pt-12;
+    @apply pb-12 md:pb-10 lg:pb-40;
+    @apply px-5 md:px-10 lg:px-0;
+    .heading__wrapper {
+      @apply px-0;
+    }
+  }
+}

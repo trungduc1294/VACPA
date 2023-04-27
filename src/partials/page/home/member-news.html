@@ -1,0 +1,41 @@
+<div class="member-news">
+    <div class="member-news__container container">
+        <div class="heading heading--border-bottom heading--border-red">
+            <div class="heading__wrapper">
+                <div class="heading__container">
+                    <div class="heading__content heading__content--space-between">
+                        <div class="heading__title">Bản tin hội viên</div>
+                        <a href="#" class="btn btn--ghost btn--sm btn--icon-right">
+                            <span>Xem thêm</span> <i class='bx bx-right-arrow-alt'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="news-list news-list--grid-three-col news-list--grid-scroll">
+            <div class="news-list__container">
+                {{#each memberNews as | item |}}
+                <a href="#" class="news-list__item">
+                    <div class="news-list__thumb">
+                        <img src="{{ item.thumbnail }}" alt="{{ item.title }}" class="">
+                        {{#if item.isNew}}
+                        <span class="news-list__badge">Mới</span>
+                        {{/if}}
+                    </div>
+
+                    <div class="news-list__content">
+                        <div class="news-list__title">
+                            <div class="">{{ item.title }}</div>
+                        </div>
+                        <div class="news-list__counter">
+                            <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ item.date }}</span>
+                            <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ item.views }}</span>
+                        </div>
+                    </div>
+                </a>
+                {{/each}}
+            </div>
+        </section>
+    </div>
+</div>

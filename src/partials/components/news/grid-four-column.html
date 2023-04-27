@@ -1,0 +1,24 @@
+<section class="news-list news-list--grid-four-col news-list--grid-scroll">
+    <div class="news-list__container">
+        {{#each hotNews as | item |}}
+                <a href="#" class="news-list__item">
+                    <div class="news-list__thumb">
+                        <img src="{{ item.thumbnail }}" alt="{{ item.title }}" class="">
+                        {{#if item.isNew}}
+                            <span class="news-list__badge">Mới</span>
+                        {{/if}}
+                    </div>
+
+                    <div class="news-list__content">
+                        <div class="news-list__title">
+                            <div class="">{{ item.title }}</div>
+                        </div>
+                        <div class="news-list__counter">
+                            <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ item.date }}</span>
+                            <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ item.views }}</span>
+                        </div>
+                    </div>
+                </a>
+        {{/each}}
+    </div>
+</section>

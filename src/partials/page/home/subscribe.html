@@ -1,0 +1,23 @@
+<section class="section section-subscribe">
+    <div class="section-subscribe__container container">
+        <div class="subscribe__cta-col subscribe__col">
+            <div class="subscribe__col__wrapper">
+                <div class="subscribe__cta-title">Đăng ký trở thành Hội viên của VACPA</div>
+                <a href="#" class="btn btn--lg btn--neutral-white">Trở thành Hội viên</a>
+            </div>
+        </div>
+        <div class="subscribe__channel-col subscribe__col">
+            <div class="subscribe__col__wrapper">
+                <div class="subscribe__channel__title">Kênh truyền thông</div>
+                <div class="subscribe__channel-list">
+                    {{#each subscribeChannels as | channel | }}
+                    <a href="#" class="subscribe__channel-item">
+                        <img src="{{ channel.icon }}" alt="{{ channel.title }}">
+                        <span>{{ channel.title }}</span>
+                    </a>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,42 @@
+<section class="partner-section section">
+    <div class="section__container container">
+        <div class="section__head">
+            <div class="heading heading--border-bottom heading--border-red">
+                <div class="heading__wrapper">
+                    <div class="heading__container">
+                        <div class="heading__content">
+                            <div class="heading__title">Đối tác</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-body">
+            <div class="partner-slide slider logo-slider">
+                <div class="slider__container">
+                    <div class="partner-slide__control slider--control control--left" data-target=".partner-slide__view">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.0499 4.94418L8.52989 11.4642C7.75989 12.2342 7.75989 13.4942 8.52989 14.2642L15.0499 20.7842" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div
+                            class="partner-slide__view slider__view"
+                            data-slick="{{ partnerSliderConfig }}"
+                    >
+                        {{#each partners as | partner | }}
+                        <div class="partner-slide__item slider__item">
+                            <img src="{{ partner.logo }}" alt="">
+                        </div>
+                        {{/each}}
+                    </div>
+                    <div class="partner-slide__control slider--control control--right" data-target=".partner-slide__view">
+                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.94998 20.7843L15.47 14.2643C16.24 13.4943 16.24 12.2343 15.47 11.4643L8.94999 4.94434" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

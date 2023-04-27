@@ -1,0 +1,26 @@
+<section class="news-list news-list--grid-one-col">
+    <div class="news-list__container">
+        {{#each homeHotNews as | news |}}
+                <a href="#" class="news-list__item">
+                    <div class="news-list__item-wrapper">
+                        <div class="news-list__thumb">
+                            <img src="{{ news.thumbnail }}" alt="{{ news.title }}" class="">
+                        </div>
+
+                        <div class="news-list__content">
+                            <div class="news-list__title">
+                                <div class="">{{ news.title }}</div>
+                            </div>
+                            <div class="news-list__counter">
+                                <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ news.date }}</span>
+                                <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ news.views }}</span>
+                            </div>
+                            <div class="news-list__desc">
+                                <div>{{ news.desc }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+        {{/each}}
+    </div>
+</section>

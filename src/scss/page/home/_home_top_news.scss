@@ -1,0 +1,10 @@
+.top-news {
+  &__container {
+    @apply pt-4 lg:pt-12;
+    @apply pb-8 md:pb-10 lg:pb-30;
+  }
+
+  .heading {
+    @apply mb-4 md:mb-6 lg:mb-8;
+  }
+}

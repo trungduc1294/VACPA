@@ -1,0 +1,8 @@
+.section {
+  &__head {
+    @apply mb-4 xl:mb-8;
+  }
+  &__container {
+    @apply px-5 md:px-10 lg:px-0;
+  }
+}

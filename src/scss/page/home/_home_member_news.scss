@@ -1,0 +1,36 @@
+.member-news {
+  &__container {
+  }
+
+  .heading {
+    @apply mb-4 md:mb-6 lg:mb-8;
+
+    .btn {
+      @apply rounded-full md:rounded-3;
+      @apply border border-neutral-300;
+      @apply w-7.5 h-7.5 md:w-[inherit] md:h-[inherit];
+      @apply flex items-center justify-center;
+      span {
+        @apply hidden md:block;
+      }
+      i {
+        @apply text-sm leading-none;
+      }
+
+      &--sm {
+        &.btn--icon-right {
+          @apply space-x-0 md:space-x-2;
+        }
+      }
+
+      &--icon-right {
+        &.btn--sm {
+          i {
+            @apply text-base leading-none;
+          }
+        }
+      }
+    }
+  }
+
+}

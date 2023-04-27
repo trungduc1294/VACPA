@@ -1,0 +1,50 @@
+.switch-lang {
+  &__head {
+    @apply flex items-center space-x-1;
+    @apply cursor-pointer;
+    .switch-lang {
+      &__selected {
+        @apply flex items-center space-x-2;
+      }
+
+      &__head-icon {
+        @apply h-4;
+        img {
+          @apply w-full h-full;
+        }
+      }
+
+      &__head-label {
+        @apply text-body-small;
+        @apply text-text-primary;
+        @apply font-semibold;
+      }
+
+      &__arrow {
+
+      }
+    }
+  }
+
+  &__dropdown {
+    @apply border border-neutral-200;
+    @apply divide-y divide-neutral-300;
+    @apply rounded-md overflow-hidden;
+    @apply absolute -bottom-2 right-0;
+    @apply w-40 translate-y-full;
+  }
+  &__option {
+    @apply flex items-center justify-start;
+    @apply text-body-small;
+    @apply text-text-primary;
+    @apply font-semibold cursor-pointer;
+    @apply px-4 py-3;
+    @apply bg-neutral-white hover:bg-blue-500;
+    @apply transition ease-in-out duration-200;
+    @apply hover:text-neutral-white;
+    img {
+      @apply h-4;
+      @apply mr-2;
+    }
+  }
+}

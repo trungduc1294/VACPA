@@ -1,0 +1,38 @@
+.heading {
+  &__container {
+    @apply relative;
+  }
+
+  &__title {
+    @apply text-h5 md:text-h4 lg:text-title;
+    @apply font-bold;
+    @apply text-primary-900;
+    @apply py-1 lg:py-2.5;
+  }
+
+  &__wrapper {
+  }
+
+  &--border-bottom {
+    .heading__container {
+      @apply border-b border-neutral-300;
+    }
+  }
+
+  &__content {
+    &--space-between {
+      @apply flex items-center justify-between;
+    }
+  }
+
+  &--border-red {
+    .heading__container {
+      &::after {
+        content: " ";
+        @apply w-[77px] h-[2px] bg-error-300 block;
+        @apply border-y border-error-300;
+        //@apply absolute bottom-0 left-0;
+      }
+    }
+  }
+}

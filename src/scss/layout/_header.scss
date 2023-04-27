@@ -1,0 +1,110 @@
+.header {
+
+  &__container {
+    @apply px-5 lg:px-10 xl:px-8;
+    @apply mx-auto w-full;
+  }
+
+  &__top {
+    .header {
+      &__container {
+        @apply flex items-center justify-between;
+        @apply py-3;
+      }
+      &__breaking-news {
+        @apply list-none;
+        @apply h-6 overflow-hidden;
+        &__wrapper {
+          @apply transition ease-in-out duration-500;
+        }
+        &__item {
+          a {
+            @apply text-body-small;
+            @apply font-semibold;
+            @apply text-primary-900;
+            @apply uppercase;
+            span {
+              @apply line-clamp-1;
+            }
+          }
+
+          &.active {
+
+          }
+        }
+      }
+
+      &__top-toolbar {
+        @apply flex items-center;
+        &__item {
+          @apply text-text-primary;
+          @apply px-2;
+          @apply relative;
+          &-link {
+            @apply text-body-small;
+            @apply font-semibold;
+            @apply flex items-center;
+            &--only-icon {
+              @apply text-2xl leading-none;
+            }
+            i {
+              @apply text-h4;
+              @apply leading-none;
+            }
+          }
+        }
+
+        @import "../component/switch-lang-xl";
+        @import "../component/notify-xl";
+      }
+    }
+  }
+
+  &__middle {
+
+    &__divide {
+      @apply h-12;
+      @apply border-x border-neutral-300;
+      @apply mx-4;
+    }
+    .header {
+      &__container {
+        @apply flex items-center justify-start;
+        @apply py-4;
+      }
+      &__branding {
+        @apply text-primary-900;
+        &__subtitle {
+          @apply text-body;
+        }
+        &__title {
+          @apply text-h5 font-bold;
+        }
+      }
+    }
+  }
+
+  &__bottom {
+    @apply border-y border-neutral-200;
+    @apply hidden lg:flex;
+    .main-nav {
+      @apply flex;
+      @apply divide-x divide-neutral-200;
+      &__item {
+        &-link {
+          @apply h-full;
+          @apply flex items-center justify-center;
+          @apply py-3.5 px-4.5;
+          @apply transition ease-in-out;
+          @apply text-body-small text-text-primary;
+          @apply hover:bg-primary-700 hover:text-neutral-white;
+          @apply inline-block;
+          i {
+            @apply text-body;
+          }
+        }
+      }
+    }
+  }
+
+}

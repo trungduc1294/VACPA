@@ -1,0 +1,111 @@
+<header class="header">
+    <div class="header__top">
+        <div class="header__container">
+            <div class="header__breaking-news"
+                 x-data="breakingNews({{breakingNews.length}}, 2000)"
+            >
+                <div class="header__breaking-news__wrapper" x-ref="panel">
+                    {{#each breakingNews as | item | }}
+                    <li class="header__breaking-news__item">
+                        <a href="{{ item.link }}"><span>{{ item.title }}</span></a>
+                    </li>
+                    {{/each}}
+                </div>
+            </div>
+
+            <div class="header__top-toolbar">
+                <div class="header__top-toolbar__item">
+                    <a href="#" class="header__top-toolbar__item-link">Podcasts</a>
+                </div>
+                <div class="header__top-toolbar__item header__top-toolbar__item-search">
+                    <a href="#" class="header__top-toolbar__item-link header__top-toolbar__item-link--only-icon">
+                        <i class='bx bx-search'></i>
+                    </a>
+                </div>
+                <div class="header__top-toolbar__item header__top-toolbar__item--lang">
+                    <div class="switch-lang" x-data="{ open: false }">
+                        <div class="switch-lang__head" @click="open = ! open">
+                            <div class="switch-lang__selected">
+                                <div class="switch-lang__head-icon"><img src="/images/lang/vi.svg" alt=""></div>
+                                <div class="switch-lang__head-label">VN</div>
+                            </div>
+                            <div class="switch-lang__arrow"><i class='bx bx-chevron-down' ></i></div>
+                        </div>
+                        <div class="switch-lang__dropdown" x-show="open" @click.outside="open = false">
+                            <div class="switch-lang__option">
+                                <img src="/images/lang/vi.svg" alt="">
+                                <span>Tiếng việt</span>
+                            </div>
+                            <div class="switch-lang__option">
+                                <img src="/images/lang/vi.svg" alt="">
+                                <span>English</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__top-toolbar__item header__top-toolbar__item--notification">
+                    <a href="#" class="header__top-toolbar__item-link header__top-toolbar__item-link--only-icon header__top-toolbar__item-link--notification">
+                        <i class='bx bx-bell'></i>
+                    </a>
+                </div>
+                <div class="header__top-toolbar__item">
+                    <a href="#" class="header__top-toolbar__item-link">
+                        <i class='bx bx-log-out mr-1' ></i> <span>Đăng nhập</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header__middle">
+        <div class="header__container">
+            <a href="/" class="header__logo">
+                <img src="/images/logo.png" alt="">
+            </a>
+            <div class="header__middle__divide"></div>
+            <div class="header__branding">
+                <div class="header__branding__subtitle">Trang tin điện tử</div>
+                <div class="header__branding__title">HỘI KIỂM TOÁN VIÊN HÀNH NGHỀ VIỆT NAM</div>
+            </div>
+        </div>
+    </div>
+    <div class="header__bottom">
+        <div class="header__container">
+            <ul class="main-nav">
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link"><i class='bx bx-home'></i></a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Giới thiệu</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Trở thành Hội viên</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Dịch vụ đào tạo</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Hội viên</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Nghiên cứu & Chuyên môn</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Hoạt động KTĐL</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Truyền thông</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Liên hệ</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link">Văn bản</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#" class="main-nav__item-link"><i class='bx bx-menu' ></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>

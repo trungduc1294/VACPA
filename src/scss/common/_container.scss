@@ -1,0 +1,6 @@
+.container {
+  @apply mx-auto;
+  &--default {
+    @apply mx-5 md:mx-auto xl:max-w-[1110px];
+  }
+}

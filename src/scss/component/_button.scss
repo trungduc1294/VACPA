@@ -1,0 +1,64 @@
+.button-primary{
+  @apply bg-primary-700 text-neutral-white text-body font-semibold py-2 rounded;
+}
+
+.btn {
+  @apply rounded-3;
+  @apply transition ease-in-out;
+  @apply flex;
+  &--primary {
+    @apply bg-primary-700 hover:bg-primary-600;
+    @apply text-neutral-white;
+  }
+
+  &--error {
+    @apply bg-secondary-300 hover:bg-secondary-200;
+    @apply text-neutral-white;
+  }
+
+  &--ghost {
+    @apply text-body-small text-text-secondary;
+    @apply font-semibold;
+  }
+
+  &--neutral-white {
+    @apply bg-neutral-white hover:bg-neutral-300;
+    @apply text-primary-700;
+  }
+
+  &--link {
+    @apply bg-transparent;
+  }
+
+  &--lg {
+    @apply text-body-small lg:text-body;
+    @apply font-semibold;
+    @apply py-2 lg:py-3 px-6;
+  }
+
+  &--md {
+    @apply font-semibold;
+    @apply text-body-small lg:text-body;
+    @apply py-2 px-6 lg:py-3 lg:px-11.5;
+  }
+
+  &--sm {
+    &.btn--icon-right {
+      @apply space-x-2;
+    }
+  }
+
+  &--icon-right {
+    @apply flex items-center justify-center;
+    &.btn--lg {
+      i {
+        @apply text-22 leading-none;
+      }
+    }
+    &.btn--sm {
+      i {
+        @apply text-base leading-none;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.item-list {
+
+  &__counter {
+    @apply flex items-center space-x-4;
+    &-item {
+      @apply text-text-tertiary;
+      @apply text-body-small;
+    }
+  }
+
+  &--default {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1;
+    @apply md:gap-3 lg:gap-0;
+    @apply divide-y divide-neutral-200;
+    .item-list {
+      &__item {
+        @apply py-4;
+        @screen lg {
+          @apply first:pt-0 last:pb-0;
+        }
+        &:nth-child(2) {
+          @apply md:border-t-0 lg:border-t;
+        }
+        &-title {
+          @apply font-semibold text-text-primary;
+          @apply text-body;
+          @apply line-clamp-2;
+        }
+      }
+    }
+  }
+}

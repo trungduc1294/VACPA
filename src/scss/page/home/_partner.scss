@@ -1,0 +1,10 @@
+.partner-section {
+  .container {
+    @apply pt-8 lg:pt-7.5;
+    @apply pb-4 lg:pb-12;
+    @apply px-5 md:px-10 lg:px-0;
+    .heading__wrapper {
+      @apply px-0;
+    }
+  }
+}

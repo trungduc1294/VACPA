@@ -1,0 +1,37 @@
+<section class="section-documents section">
+    <div class="section__container container">
+        <div class="section__head">
+            <div class="heading heading--border-bottom heading--border-red">
+                <div class="heading__wrapper">
+                    <div class="heading__container">
+                        <div class="heading__content">
+                            <div class="heading__title">Văn bản pháp luật</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-body">
+            <section class="news-list news-list--documents">
+                <div class="news-list__container">
+                    {{#each homeDocuments as | documentItem |}}
+                    <a href="#" class="news-list__item">
+                        <div class="news-list__item-wrapper">
+                            <div class="news-list__content">
+                                <div class="news-list__title">
+                                    <div class="">{{ documentItem.title }}</div>
+                                </div>
+                                <div class="news-list__counter">
+                                    <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ documentItem.date }}</span>
+                                    <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ documentItem.views }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    {{/each}}
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

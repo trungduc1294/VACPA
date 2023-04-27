@@ -1,0 +1,13 @@
+.divider {
+  @apply relative;
+  &--button-left {
+    @apply flex items-center justify-end;
+    @apply mt-2 lg:mt-4;
+    &::after {
+      content: " ";
+      @apply w-full h-[1px] bg-neutral-300;
+      @apply absolute top-1/2 left-0;
+      @apply z-10;
+    }
+  }
+}

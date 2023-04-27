@@ -1,0 +1,23 @@
+<section class="news-list news-list--grid-two-col">
+    <div class="news-list__container">
+        {{#each courses as | course |}}
+                <a href="#" class="news-list__item">
+                    <div class="news-list__item-wrapper">
+                        <div class="news-list__thumb">
+                            <img src="{{ course.thumbnail }}" alt="{{ course.title }}" class="">
+                        </div>
+
+                        <div class="news-list__content">
+                            <div class="news-list__title">
+                                <div class="">{{ course.title }}</div>
+                            </div>
+                            <div class="news-list__counter">
+                                <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ course.date }}</span>
+                                <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ course.views }}</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+        {{/each}}
+    </div>
+</section>

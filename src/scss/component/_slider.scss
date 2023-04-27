@@ -1,0 +1,7 @@
+.slider {
+  .slider--control {
+    @apply cursor-pointer;
+    @apply bg-dark-20 p-1.5 text-neutral-white;
+    @apply backdrop-blur-lg;
+  }
+}

@@ -1,0 +1,56 @@
+.section__hero {
+  background-image: url("/images/hero/hero-bg-sm.png");
+  @apply bg-cover bg-center;
+  &__container {
+    @apply max-w-[1110px];
+    @apply mx-auto;
+    @apply px-5 py-4 xl:px-0 xl:py-12.5;
+    @apply grid grid-cols-1;
+    @apply gap-2 xl:gap-4;
+  }
+
+  &--only-title {
+    .section__hero--title {
+      @apply text-neutral-white font-bold;
+      @apply text-h4 xl:text-h2;
+    }
+  }
+
+
+  // user profile
+  &__profile {
+    @apply flex;
+    @apply items-center;
+    @apply flex-col md:flex-row;
+    @apply md:space-x-6;
+  }
+  &__avatar {
+    @apply w-21.5 h-21.5 flex-none;
+    @apply rounded-full bg-neutral-white overflow-hidden;
+    img {
+      @apply w-full h-full object-cover border-none;
+    }
+  }
+  &__summary {
+    @apply text-neutral-white;
+    @apply grid grid-cols-1 gap-1;
+    @apply text-center md:text-left;
+  }
+  &__display-name {
+    @apply font-bold;
+    @apply text-h4 xl:text-h3;
+  }
+  &__role {
+    @apply text-h5 xl:text-h4;
+  }
+  &--user-profile {
+
+  }
+
+}
+
+@screen xl {
+  .section__hero {
+    background-image: url("/images/hero/hero-bg-xl.png");
+  }
+}

@@ -1,0 +1,19 @@
+.logo-slider {
+  .slider {
+    &__container {
+      @apply flex items-center justify-between;
+    }
+  }
+  .slider__view {
+    @apply w-2/3;
+    @apply mx-auto;
+    .slider__item {
+      @apply flex items-center justify-center;
+      @apply h-[inherit];
+    }
+
+    .slick-track {
+      @apply flex space-x-8 lg:space-x-16;
+    }
+  }
+}

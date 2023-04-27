@@ -1,0 +1,22 @@
+.breadcrumb {
+  @apply flex items-center;
+  @apply space-x-1;
+  @apply text-small xl:text-body;
+  @apply text-neutral-400 font-semibold;
+  @apply flex-wrap;
+
+  &__link {
+    @apply ml-1 first:ml-0;
+  }
+
+  &__item {
+
+    &-wrapper {
+      @apply flex items-center;
+    }
+
+    svg {
+      @apply  flex-shrink-0;
+    }
+  }
+}

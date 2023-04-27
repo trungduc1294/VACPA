@@ -1,0 +1,27 @@
+<section class="news-list news-list--list-one-col">
+    <div class="news-list__container">
+        {{#each newsItems as | item |}}
+            {{#with item}}
+                <a href="#" class="news-list__item">
+                    <div class="news-list__thumb">
+                        <img src="{{ thumbnail }}" alt="{{ title }}" class="">
+                        {{#if isNew}}
+                            <span class="news-list__badge">Mới</span>
+                        {{/if}}
+                    </div>
+
+                    <div class="news-list__content">
+                        <div class="news-list__title">{{ title }}</div>
+                        <div class="news-list__desc">
+                            <div class="">{{ desc }}</div>
+                        </div>
+                        <div class="news-list__counter">
+                            <span class="news-list__counter-item"><i class='bx bx-time-five'></i> {{ date }}</span>
+                            <span class="news-list__counter-item"><i class='bx bx-show' ></i> {{ views}}</span>
+                        </div>
+                    </div>
+                </a>
+            {{/with}}
+        {{/each}}
+    </div>
+</section>

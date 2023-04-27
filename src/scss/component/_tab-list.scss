@@ -1,0 +1,34 @@
+.tab-list {
+  &__item {
+    @apply text-body-small font-semibold;
+    @apply text-text-primary;
+    @apply py-3 px-4;
+    @apply relative;
+    @apply border border-neutral-300 border-l-0 first:border-l;
+    @apply border-b-0;
+    @apply whitespace-nowrap;
+    &--active, &.active {
+      &::after {
+        content: " ";
+        @apply absolute bottom-0 left-0 w-full;
+        @apply h-[3px] bg-secondary-300;
+      }
+    }
+  }
+  &__head {
+    @apply flex items-start;
+    @apply border-b border-neutral-300;
+  }
+
+  &__panels {
+    .tab-list {
+      &__panel {
+        @apply hidden;
+
+        &--active, &.active {
+          @apply block;
+        }
+      }
+    }
+  }
+}

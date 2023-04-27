@@ -1,0 +1,440 @@
+{
+    "socials": [
+        "bx bxl-facebook-square",
+        "bx bxl-youtube",
+        "bx bxl-linkedin",
+        "bx bx-envelope"
+    ],
+    "footerNavs": [
+        {
+            "text": "Liên hệ",
+            "link": "#"
+        },
+        {
+            "text": "Sơ đồ",
+            "link": "#"
+        },
+        {
+            "text": "Bảo mật",
+            "link": "#"
+        }
+    ],
+    "newsItems": [
+        {
+            "thumbnail": "/images/news/list-item-1.png",
+            "title": "Chúc mừng ngày Quốc tế Phụ nữ 8/3",
+            "desc": "NHÂN DỊP QUỐC TẾ PHỤ NỮ 8/3, VACPA GỬI LỜI CHÚC CHÂN THÀNH ĐẾN QUÝ HỘI VIÊN & CHỊ/EM PHỤ NỮ.",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/list-item-2.png",
+            "title": "Ban Thường trực và Ban Chấp hành VACPA họp phiên toàn thể lần thứ 07 - Nhiệm kỳ V",
+            "desc": "Trong năm 2022, VACPA đã hoàn thành soạn thảo và báo cáo Bộ Tài chính về dự thảo Chuẩn mực kiểm toán Việt Nam (VSA) số 315 - Xác định và đánh giá rủi ro có sai sót trọng yếu và sửa đổi, bổ sung 29 VSA (đã cập nhật năm 2020; 2021) do ảnh hưởng của 02 VSA (VSA 315 (Soạn thảo năm 2022) và VSA 540 (Soạn thảo năm 2021)) để đảm bảo tính đồng bộ của 30 VSA biên soạn các năm 2020, 2021, 2022. Đồng thời, VACPA cũng báo cáo Bộ Tài chính kết quả nghiên cứu, tổng hợp đánh giá tác động của các nước, tổ chức nghề nghiệp quốc tế từ việc áp dụng các chuẩn mực kiểm toán quốc tế (ISA) mới (hoặc ban hành lại), trong đó tập trung vào Chuẩn mực kiểm toán (ISA) số 701 - Trình bày các vấn đề kiểm toán quan trọng và các ISA về báo cáo kiểm toán để Bộ Tài chính có cơ sở xem xét ban hành.",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/list-item-3.png",
+            "title": "Hoạt động nổi bật của VACPA năm 2022",
+            "desc": "Trong năm 2022, VACPA đã hoàn thành soạn thảo và báo cáo Bộ Tài chính về dự thảo Chuẩn mực kiểm toán Việt Nam (VSA) số 315 - Xác định và đánh giá rủi ro có sai sót trọng yếu và sửa đổi, bổ sung 29 VSA (đã cập nhật năm 2020; 2021) do ảnh hưởng của 02 VSA (VSA 315 (Soạn thảo năm 2022) và VSA 540 (Soạn thảo năm 2021)) để đảm bảo tính đồng bộ của 30 VSA biên soạn các năm 2020, 2021, 2022. Đồng thời, VACPA cũng báo cáo Bộ Tài chính kết quả nghiên cứu, tổng hợp đánh giá tác động của các nước, tổ chức nghề nghiệp quốc tế từ việc áp dụng các chuẩn mực kiểm toán quốc tế (ISA) mới (hoặc ban hành lại), trong đó tập trung vào Chuẩn mực kiểm toán (ISA) số 701 - Trình bày các vấn đề kiểm toán quan trọng và các ISA về báo cáo kiểm toán để Bộ Tài chính có cơ sở xem xét ban hành.",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/list-item-4.png",
+            "title": "Uỷ ban Chứng khoán Nhà nước thông tin về tình hình thị trường chứng khoán",
+            "desc": "Ủy ban Chứng khoán Nhà nước (UBCKNN) cho biết, thị trường chứng khoán Việt Nam biến động mạnh trong thời gian qua xuất phát từ tâm lý thận trọng của nhà đầu tư trước những bất ổn và triển vọng kém tích cực về kinh tế - chính trị thế giới và có sự đồng pha với diễn biến trên thị trường chứng khoán thế giới. UBCKNN, Bộ Tài chính đã và đang triển khai một số giải pháp nhằm bảo đảm sự phát triển ổn định, bền vững và minh bạch của thị trường chứng khoán.",
+            "date": "22/12/2022",
+            "views": "12.287"
+        },
+        {
+            "thumbnail": "/images/news/list-item-5.png",
+            "title": "VACPA đã tham gia ý kiến về các văn bản pháp luật với Bộ Tài chính trong tháng 9/2022",
+            "desc": "Trong tháng 9/2022, VACPA đã nhận được đề nghị tham gia ý kiến của Bộ Tài chính về: (i) Dự thảo Báo cáo Tổng kết thực tiễn thi hành Luật Kế toán (sau đây gọi là Dự thảo Báo cáo thi hành Luật Kế toán); (ii) Dự thảo Nghị định của Chính phủ quy định chi tiết thi hành Luật Kinh doanh bảo hiểm (sau đây gọi là “Dự thảo Nghị định chi tiết Luật KDBH”) và Dự thảo Thông tư quy định chi tiết Luật Kinh doanh bảo hiểm (sau đây gọi là “Dự thảo Thông tư hướng dẫn Luật KDBH”); (iii) Dự thảo Thông tư sửa đổi, bổ sung một số điều của Thông tư 111/2020/TT-BTC ngày 29/12/2020 về hướng dẫn một số nội dung về xử lý tài chính, xác định giá trị đơn vị sự nghiệp (ĐVSN) công lập, bán cổ phần lần đầu và quản lý, sử dụng tiền thu từ chuyển đổi ĐVSN công lập thành công ty cổ phần (sau đây gọi là “Dự thảo TT sửa đổi TT111”).",
+            "date": "22/12/2022",
+            "views": "12.287"
+        }
+    ],
+    "relatedNews": [
+        {
+            "thumbnail": "/images/news/related-item-1.png",
+            "title": "VACPA chúc mừng tân Chủ tịch Ủy ban Chứng khoán Nhà nước (SSC)",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/related-item-2.png",
+            "title": "Cục thuế Hà Nội ban hành Công văn số 13762/CTHN-HKDCN hướng dẫn quyết toán thuế th",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/related-item-3.png",
+            "title": "VACPA tham dự Hội thảo Tư vấn hướng nghiệp và định hướng nghề nghiệp tại Đại học Nha",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        }
+    ],
+    "hotNews": [
+        {
+            "thumbnail": "/images/news/hot-news-1.png",
+            "title": "THƯ MỜI LỚP ÔN THI KIỂM TOÁN VIÊN VÀ KẾ TOÁN VIÊN TẬP TRUNG TẠI TP. HỒ CHÍ MINH NĂM 2023",
+            "date": "22/12/2022",
+            "views": "12.287"
+        },
+        {
+            "thumbnail": "/images/news/hot-news-2.png",
+            "title": "THƯ MỜI LỚP ÔN THI KIỂM TOÁN VIÊN VÀ KẾ TOÁN VIÊN TẬP TRUNG TẠI TP. HỒ CHÍ MINH NĂM 2023",
+            "date": "22/12/2022",
+            "views": "12.287"
+        },
+        {
+            "thumbnail": "/images/news/hot-news-3.png",
+            "title": "IAASB công bố ấn bản Sổ tay mới nhất về các chuẩn mực nghề nghiệp",
+            "date": "22/12/2022",
+            "views": "12.287"
+        },
+        {
+            "thumbnail": "/images/news/hot-news-4.png",
+            "title": "Cục thuế Hà Nội ban hành Công văn số 13762/CTHN-HKDCN hướng dẫn quyết toán thuế thu nhập cá nhân năm 2022",
+            "date": "22/12/2022",
+            "views": "12.287"
+        }
+    ],
+    "courses": [
+        {
+            "thumbnail": "/images/news/course-1.png",
+            "title": "Thư mời tham dự lớp CNKT Online 07AB-2023, 01 ngày 09/12/2022",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/course-2.png",
+            "title": "Thư mời tham dự lớp CNKT Online 05AB-2023, 02 ngày 24-25/11/2022",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/course-3.png",
+            "title": "Thư mời tham dự lớp CNKT Online 04AB-2023, 02 ngày 09-10/11/2022",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/course-4.png",
+            "title": "Thư mời tham dự lớp CNKT tập trung - Offline 01B-2023, 02 ngày 21-22/9/2022",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/course-5.png",
+            "title": "Thư mời tham dự lớp CNKT Online 38AB-2022 02 ngày 09-10/08/2022",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/course-6.png",
+            "title": "Thư mời tham dự lớp CNKT Online 22AB-2022 03 ngày 11,12,13/5/2022t",
+            "date": "22/12/2022",
+            "views": "12.287",
+            "isNew": true
+        }
+    ],
+    "trainingFeaturePosts": [
+        {
+            "thumbnail": "/images/service/training/training-service-1.jpg",
+            "title": "Kế hoạch Đào tạo, cập nhật kiến thức",
+            "desc": "Chuẩn mực đạo đức nghề nghiệp Kế toán, Kiểm toán và những quy định và nguyên tắc cơ bản"
+        },
+        {
+            "thumbnail": "/images/service/training/training-service-2.jpg",
+            "title": "Công Bố giờ cập nhật kiến thức",
+            "desc": "Theo dõi giờ cập nhật kiến thức dành cho Hội viên"
+        }
+    ],
+    "trainingCategories": [
+        {
+            "icon": "/images/service/training/icon-idea.svg",
+            "title": "Lớp cập nhật kiến thức",
+            "desc": "Cập nhật những thông tin về lớp học cập nhật kiến thức"
+        },
+        {
+            "icon": "/images/service/training/icon-certificate.svg",
+            "title": "Lớp ôn thi lấy chứng chỉ KTV",
+            "desc": "Cập nhật những thông tin về lớp ôn thi lấy chứng chỉ KTV"
+        },
+        {
+            "icon": "/images/service/training/icon-research.svg",
+            "title": "Lớp thực hành kiểm toán",
+            "desc": "Cập nhật những thông tin về lớp thực hành kiểm toán"
+        },
+        {
+            "icon": "/images/service/training/icon-others.svg",
+            "title": "Đào tạo khác",
+            "desc": "Những thông tin về các lớp đào tạo khác"
+        }
+    ],
+    "breakingNews": [
+        {
+            "link": "/",
+            "title": "NÂNG CAO CHẤT LƯỢNG DỊCH VỤ, UY TÍN CỦA HỘI VIÊN VÀ VACPA"
+        },
+        {
+            "link": "/",
+            "title": "VACPA HOẠT ĐỘNG VÌ LỢI ÍCH HỘI VIÊN"
+        },
+        {
+            "link": "/",
+            "title": "NÂNG DỊCH VỤ, UY TÍN CỦA HỘI VIÊN VÀ VACPA"
+        },
+        {
+            "link": "/",
+            "title": "VACPA VÌ LỢI ÍCH HỘI VIÊN"
+        }
+    ],
+    "partners": [
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-1.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-2.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-3.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-4.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-5.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-1.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-2.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-3.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-4.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/partners/partner-5.png"
+        }
+    ],
+    "members": [
+        {
+            "link": "/",
+            "logo": "/images/members/member-1.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-2.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-3.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-4.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-5.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-1.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-2.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-3.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-4.png"
+        },
+        {
+            "link": "/",
+            "logo": "/images/members/member-5.png"
+        }
+    ],
+    "homeHotNews": [
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Ban Thường trực và Ban Chấp hành VACPA họp phiên toàn thể lần thứ 07 - Nhiệm kỳ V tại Hà Nội.",
+            "desc": "Trong hai ngày 11 và 12/01/2023 tại Hà Nội, Ban Thường trực và Ban Chấp hành Hội Kiểm toán viên hành nghề Việt Nam (VACPA) đã họp phiên toàn thể lần thứ 07- Nhiệm kỳ V do ông Phạm Sỹ Danh - Chủ tịch VACPA chủ trì. Cuộc họp có sự tham dự của 22 Ủy viên",
+            "date": "25/01/2023",
+            "views": "121.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Ban Thường trực và Ban Chấp hành VACPA họp phiên toàn thể lần thứ 07 - Nhiệm kỳ V tại Hà Nội.",
+            "desc": "Trong hai ngày 11 và 12/01/2023 tại Hà Nội, Ban Thường trực và Ban Chấp hành Hội Kiểm toán viên hành nghề Việt Nam (VACPA) đã họp phiên toàn thể lần thứ 07- Nhiệm kỳ V do ông Phạm Sỹ Danh - Chủ tịch VACPA chủ trì. Cuộc họp có sự tham dự của 22 Ủy viên",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Ban Thường trực và Ban Chấp hành VACPA họp phiên toàn thể lần thứ 07 - Nhiệm kỳ V tại Hà Nội.",
+            "desc": "Trong hai ngày 11 và 12/01/2023 tại Hà Nội, Ban Thường trực và Ban Chấp hành Hội Kiểm toán viên hành nghề Việt Nam (VACPA) đã họp phiên toàn thể lần thứ 07- Nhiệm kỳ V do ông Phạm Sỹ Danh - Chủ tịch VACPA chủ trì. Cuộc họp có sự tham dự của 22 Ủy viên",
+            "date": "25/01/2023",
+            "views": "121.287",
+            "isNew": true
+        }
+    ],
+    "memberNews": [
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Bản tin Hội viên số 43",
+            "date": "25/01/2023",
+            "views": "121.287",
+            "isNew": true
+        },
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Bản tin Hội viên số 42",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "thumbnail": "/images/news/home-hot-news-1.png",
+            "title": "Bản tin Hội viên số 41",
+            "date": "25/01/2023",
+            "views": "121.287",
+            "isNew": true
+        }
+    ],
+    "notifications": [
+        {
+            "title": "Danh sách 30 công ty kiểm toán và kiểm toán  khoán - Năm 2023",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "Bộ Tài chính thông báo về việc nhận chứng chỉ kiểm toán viên và kế toán viên năm 2020",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "Bộ Tài chính - Cục Quản lý giám sát kế toán, kiểm toán thông báo về tài liệu học, ôn thi kỳ thi cấp chứng chỉ kiểm toán viên, kế toán viên",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA PHÁT HÀNH EBOOK 1.12",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA phát hành Ebook 2.3 Kiểm toán XDCB",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        }
+    ],
+    "subscribeChannels": [
+        {
+            "icon": "/images/subscribe-channel/global.svg",
+            "title": "VACPA Forum"
+        },
+        {
+            "icon": "/images/subscribe-channel/global.svg",
+            "title": "Trang tin VACPA: Tuyển dụng"
+        },
+        {
+            "icon": "/images/subscribe-channel/linkedin.svg",
+            "title": "VACPA Linkedin"
+        },
+        {
+            "icon": "/images/subscribe-channel/facebook.svg",
+            "title": "Fanpage VACPA Tuyển dụng"
+        },
+        {
+            "icon": "/images/subscribe-channel/facebook.svg",
+            "title": "Fanpage Hội Kiểm toán viên hành nghề Việt Nam"
+        }
+    ],
+    "homeDocuments": [
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        },
+        {
+            "title": "VACPA - Phát động chương trình “Máy tính cũ – Tri thức mới”",
+            "link": "/",
+            "date": "25/01/2023",
+            "views": "121.287"
+        }
+    ],
+    "partnerSliderConfig": "{\"arrows\": false, \"infinite\": false,\"slidesToShow\":5,\"slidesToScroll\":5,\"responsive\":[{\"breakpoint\":1024,\"settings\":{\"slidesToShow\":3,\"slidesToScroll\":3}},{\"breakpoint\":768,\"settings\":{\"slidesToShow\":2,\"slidesToScroll\":2}}]}",
+    "memberSliderConfig": "{\"arrows\": false, \"infinite\": false,\"slidesToShow\":5,\"slidesToScroll\":5,\"responsive\":[{\"breakpoint\":1024,\"settings\":{\"slidesToShow\":3,\"slidesToScroll\":3}},{\"breakpoint\":768,\"settings\":{\"slidesToShow\":2,\"slidesToScroll\":2}}]}",
+    "homeSliderConfig": "'{\"arrows\":false}'",
+    "homeHotNewsSliderConfig": "{\"arrows\":false, \"infinity\": false}"
+}

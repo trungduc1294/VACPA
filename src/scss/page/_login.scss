@@ -1,0 +1,58 @@
+.login_page {
+  @apply border border-neutral-300;
+  @apply mx-auto my-16;
+  @apply lg:max-w-[730px];
+
+  .login_header {
+    // @apply bg-background;
+    // @apply py-6;
+    // @apply px-5 lg:px-24;
+
+    h1 {
+      @apply text-primary-900;
+      @apply pb-2.5;
+      @apply text-h5 lg:text-h3 font-bold;
+    }
+
+    .login_signup_question {
+      @apply flex;
+
+      span {
+        @apply text-text-secondary;
+      }
+
+      a {
+        @apply text-primary-700;
+      }
+    }
+  }
+
+  .login_form {
+    @apply py-12 px-5;
+    @apply mx-auto;
+    @apply w-full lg:w-9/12;
+
+    form {
+      @apply grid grid-cols-1 gap-4;
+
+      input {
+        @apply w-full;
+        @apply h-12;
+      }
+
+      input:focus {
+        @apply outline-none;
+      }
+
+      button {
+        @apply px-5 py-2;
+        @apply w-full lg:w-40;
+      }
+
+      a {
+        @apply text-secondary-300;
+        @apply text-body font-semibold;
+      }
+    }
+  }
+}

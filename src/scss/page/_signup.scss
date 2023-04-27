@@ -1,0 +1,126 @@
+// Xử lý place holder của thẻ input date
+// Xử lý float label input
+//  Xử lý part title border
+// Xử lý chose country input (domestic/foreign)
+// Xử lý red asterisk các thẻ input
+// Xử lý button submit
+// Xử lý responship PC
+
+.signup_page {
+  @apply border border-neutral-300;
+  @apply mx-auto;
+
+  // Header CSS
+  .signup_header {
+    h1 {
+      @apply font-bold text-h5;
+      @apply text-primary-900;
+    }
+
+    .signup_header_description {
+      @apply text-body-small;
+      @apply text-text-primary;
+    }
+  }
+
+  // Progress Bar
+  .signup_progress {
+    @apply h-1 w-full;
+    @apply flex;
+
+    .completed_signup {
+      @apply w-1/3 h-1;
+      @apply inline-block;
+      @apply bg-primary-500;
+    }
+
+    .uncompleted_signup {
+      @apply w-2/3 h-1;
+      @apply inline-block;
+      @apply bg-neutral-300;
+    }
+  }
+
+  // Role Section
+  .role_selection_mobile {
+    @apply px-5;
+    @apply w-full;
+    @apply my-6;
+
+    #role_selection {
+      @apply form-control;
+      @apply py-3;
+      @apply text-body font-semibold;
+      @apply text-text-primary;
+      @apply w-full;
+    }
+  }
+
+  // Main form CSS
+  .signup_form {
+    @apply px-5;
+
+    form {
+      @apply grid grid-cols-1 gap-4;
+      .form_part {
+        @apply grid grid-cols-1 gap-4;
+        .form_part_title {
+          @apply border-l-4 border-primary-700;
+
+          h2 {
+            @apply text-body font-bold;
+            @apply text-text-primary;
+            @apply pl-2;
+          }
+        }
+        .form_part_content {
+          @apply grid grid-cols-1 gap-4;
+          .form_group {
+            @apply relative;
+
+            .float_up_label {
+              @apply pointer-events-none;
+              @apply absolute;
+              @apply text-body-small;
+              @apply text-text-secondary;
+              @apply left-4 top-3;
+            }
+            input {
+              @apply form-control;
+              @apply py-3;
+              @apply px-4;
+              @apply w-full;
+            }
+
+            // input:focus {
+            //   @apply form-control-focus-no-outline;
+            // }
+
+            .selection_input {
+              //select tag css
+              @apply form-control;
+              @apply py-3;
+              @apply px-4;
+              @apply w-full;
+            }
+          }
+          .country_selection_group {
+            h3 {
+              @apply text-body font-bold;
+              @apply text-text-primary;
+            }
+            // Country Selection CSS
+            .country_selection_input {
+              @apply flex gap-4;
+
+              .domestic,
+              .foreign {
+                @apply flex gap-1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

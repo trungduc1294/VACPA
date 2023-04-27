@@ -1,0 +1,31 @@
+<div class="feature-post feature-post--grid-two-col">
+    <div class="feature-post__container">
+        {{#each trainingFeaturePosts as | post |}}
+        <a class="feature-post__item">
+            <div class="feature-post__item-wrapper">
+                <div class="feature-post__thumb">
+                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
+                </div>
+                <div class="feature-post__content">
+                    <div class="feature-post__content-wrapper">
+                        <div class="feature-post__summary">
+                            <div class="feature-post__title">{{ post.title }}</div>
+                            <div class="feature-post__desc">
+                                <div class="line-clamp-2">{{ post.desc }}</div>
+                            </div>
+                        </div>
+                        <div class="feature-post__link">
+                            <span class="feature-post__link--xl"><span>Xem thêm</span> <i class='bx bx-arrow-back bx-rotate-180' ></i></span>
+                            <span class="feature-post__link--sm ">
+                                <svg class="w-full h-full text-current" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.42499 16.6004L12.8583 11.1671C13.5 10.5254 13.5 9.47539 12.8583 8.83372L7.42499 3.40039" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        {{/each}}
+    </div>
+</div>
