@@ -1,0 +1,211 @@
+// Xử lý place holder của thẻ input date
+// Xử lý float label input
+//  Xử lý part title border
+// Xử lý chose country input (domestic/foreign)
+// Xử lý red asterisk các thẻ input
+// Xử lý responship PC
+
+.signup_page {
+  @apply border border-neutral-300;
+  @apply mx-auto;
+
+  // Header CSS
+  .signup_header {
+    h1 {
+      @apply h5-bold;
+      @apply text-primary-900;
+    }
+
+    .signup_header_description {
+      @apply body-small-regular;
+      @apply text-text-primary;
+    }
+  }
+
+  // Progress Bar
+  .signup_progress {
+    @apply h-1 w-full;
+    @apply flex;
+    @apply bg-neutral-300;
+
+    .completed_signup {
+      @apply h-1;
+      @apply inline-block;
+      @apply bg-primary-500;
+    }
+
+    .step1 {
+      @apply w-1/3;
+    }
+
+    .step2 {
+      @apply w-2/3;
+    }
+
+    .step3 {
+      @apply w-full;
+    }
+  }
+
+  // Role Section
+  .role_selection_mobile {
+    @apply px-5;
+    @apply w-full;
+    @apply my-6;
+
+    #role_selection {
+      @apply form-control;
+      @apply py-3;
+      @apply body-semibold;
+      @apply text-text-primary;
+      @apply w-full;
+    }
+  }
+
+  // Main form CSS
+  .signup_form {
+    @apply px-5;
+    @apply mt-6;
+
+    form {
+      @apply grid grid-cols-1 gap-4;
+      .form_part {
+        @apply grid grid-cols-1 gap-4;
+        .form_part_title {
+          // @apply border-l-4 border-primary-700;
+          @apply flex gap-2;
+
+          .left_bar {
+            @apply h-6;
+            @apply border-l-4 border-primary-700;
+          }
+
+          h2 {
+            @apply body-bold;
+            @apply text-text-primary;
+            @apply pl-2;
+          }
+        }
+        .form_part_content {
+          @apply grid grid-cols-1 gap-4;
+
+          .description {
+            p {
+              @apply text-text-primary;
+              @apply italic;
+            }
+          }
+
+          // Input CSS
+          .form_group {
+            @apply relative;
+
+            .non_float_up_label {
+              @apply text-text-primary;
+              @apply mb-2;
+            }
+
+            .float_up_label {
+              @apply pointer-events-none;
+              @apply absolute;
+              @apply body-small-regular;
+              @apply text-text-secondary;
+              @apply left-4 top-3;
+            }
+            input {
+              @apply form-control;
+              @apply py-3;
+              @apply px-4;
+              @apply w-full;
+            }
+
+            .selection_input {
+              //select tag css
+              @apply form-control;
+              @apply py-3;
+              @apply px-4;
+              @apply w-full;
+            }
+          }
+
+          .confirmation {
+            p {
+              @apply text-text-primary;
+              @apply body-regular;
+              @apply mb-4;
+            }
+            .confirm_checkbox {
+              @apply flex gap-4;
+              input {
+                @apply w-6 h-6;
+              }
+              label {
+                @apply body-regular;
+                @apply text-text-secondary;
+              }
+            }
+          }
+
+          .selection_group {
+            h3 {
+              @apply body-bold;
+              @apply text-text-primary;
+            }
+            // Country Selection CSS
+            .selection_input {
+              @apply flex gap-4;
+
+              .domestic,
+              .foreign,
+              .male,
+              .female,
+              .orther {
+                @apply flex gap-1;
+              }
+            }
+          }
+        }
+      }
+
+      .btn_container {
+        @apply flex;
+        @apply justify-between;
+
+        .back_button {
+          @apply py-3;
+          @apply text-primary-700;
+          @apply body-semibold;
+          @apply border border-primary-700;
+          @apply rounded;
+          @apply w-12/25;
+        }
+
+        .submit_button {
+          @apply bg-primary-700;
+          @apply py-3;
+          @apply text-neutral-white;
+          @apply body-semibold;
+          @apply rounded;
+          @apply w-12/25;
+        }
+
+        .step1 {
+          @apply w-full;
+        }
+      }
+
+      .confirm_text {
+        @apply body-semibold;
+        @apply text-text-primary;
+        @apply text-center;
+      }
+
+      .get_email_button {
+        @apply button-primary;
+        @apply w-4/5;
+        @apply text-neutral-white;
+        @apply body-semibold;
+      }
+    }
+  }
+}

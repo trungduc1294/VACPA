@@ -1,0 +1,14 @@
+.form-control {
+  @apply border border-neutral-300 rounded;
+  @apply text-text-secondary;
+  @apply pl-4;
+}
+
+.form-control-focus-no-outline {
+  @apply outline-none;
+}
+
+.red-asterisk {
+  @apply text-error-300;
+  @apply body-small-regular;
+}

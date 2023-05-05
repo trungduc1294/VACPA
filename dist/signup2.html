@@ -1,0 +1,146 @@
+<!DOCTYPE html >
+<head> 
+  <title>Signup Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="/dist/style.css" rel="stylesheet"/>
+</head>
+<body> 
+  <div class="signup_page">
+    <div class="signup_header">
+      <h1>Đăng ký tài khoản </h1><span class="signup_header_description">Vui lòng nhập đầy đủ thông tin đăng ký. Trường có dấu <span class="red-asterisk">* </span>là bắt buộc.</span>
+    </div>
+    <div class="signup_progress"> 
+      <div class="completed_signup step2"></div>
+    </div>
+    <div class="signup_form"> 
+      <form action="" method="post">
+        <div class="form_part"> 
+          <div class="form_part_title"> 
+            <div class="left_bar"> </div>
+            <h2>THÔNG TIN NGƯỜI ĐẠI DIỆN PHÁP LUẬT </h2>
+          </div>
+          <div class="form_part_content"> 
+            <div class="form_group"> 
+              <label class="float_up_label" for="deputy_name">Họ và tên *</label>
+              <input type="text" name="deputy_name" id="deputy_name"/>
+            </div>
+            <div class="form_group">
+              <label class="float_up_label" for="deputy_date_of_birth">Ngày sinh *</label>
+              <input type="text" name="deputy_date_of_birth" id="deputy_date_of_birth"/>
+            </div>
+            <div class="form_group selection_group">
+              <h3>Giới tính</h3>
+              <div class="selection_input">
+                <div class="male">
+                  <input id="male" type="radio" name="sex"/>
+                  <label for="male">Nam </label>
+                </div>
+                <div class="female">
+                  <input id="female" type="radio" name="sex"/>
+                  <label for="female">Nữ</label>
+                </div>
+                <div class="orther">
+                  <input id="orther" type="radio" name="sex"/>
+                  <label for="orther">Nước ngoài</label>
+                </div>
+              </div>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="duty">Chức vụ *</label>
+              <select class="selection_input" id="duty" name="duty"> 
+                <option value="">  </option>
+                <option value="1">1 </option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="KTV_number">Số chứng chỉ KTV *</label>
+              <input type="text" name="KTV_number" id="KTV_number"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="license_date">Ngày cấp *</label>
+              <input type="date" name="license_date" id="license_date"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="phone_number">Số điện thoại *</label>
+              <input type="text" name="phone_number" id="phone_number"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="permanent_phone_number">Số điện thoại cố định *</label>
+              <input type="text" name="permanent_phone_number" id="permanent_phone_number"/>
+            </div>
+            <div class="form_group">
+              <label class="float_up_label" for="email">Email *</label>
+              <input type="text" name="email" id="email"/>
+            </div>
+          </div>
+        </div>
+        <div class="form_part">
+          <div class="form_part_title"> 
+            <div class="left_bar"> </div>
+            <h2>THÔNG TIN NGƯỜI ĐẠI DIỆN LIÊN LẠC </h2>
+          </div>
+          <div class="form_part_content">
+            <div class="form_group"> 
+              <label class="float_up_label" for="deputy_name">Họ và tên *</label>
+              <input type="text" name="deputy_name" id="deputy_name"/>
+            </div>
+            <div class="form_group">
+              <label class="float_up_label" for="deputy_date_of_birth">Ngày sinh *</label>
+              <input type="text" name="deputy_date_of_birth" id="deputy_date_of_birth"/>
+            </div>
+            <div class="form_group selection_group">
+              <h3>Giới tính</h3>
+              <div class="selection_input">
+                <div class="male">
+                  <input id="male" type="radio" name="sex"/>
+                  <label for="male">Nam </label>
+                </div>
+                <div class="female">
+                  <input id="female" type="radio" name="sex"/>
+                  <label for="female">Nữ</label>
+                </div>
+                <div class="orther">
+                  <input id="orther" type="radio" name="sex"/>
+                  <label for="orther">Nước ngoài</label>
+                </div>
+              </div>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="duty">Chức vụ *</label>
+              <select class="selection_input" id="duty" name="duty"> 
+                <option value="">  </option>
+                <option value="1">1 </option>
+                <option value="2">2</option>
+              </select>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="KTV_number">Số chứng chỉ KTV *</label>
+              <input type="text" name="KTV_number" id="KTV_number"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="license_date">Ngày cấp *</label>
+              <input type="date" name="license_date" id="license_date"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="phone_number">Số điện thoại *</label>
+              <input type="text" name="phone_number" id="phone_number"/>
+            </div>
+            <div class="form_group"> 
+              <label class="float_up_label" for="permanent_phone_number">Số điện thoại cố định *</label>
+              <input type="text" name="permanent_phone_number" id="permanent_phone_number"/>
+            </div>
+            <div class="form_group">
+              <label class="float_up_label" for="email">Email *</label>
+              <input type="text" name="email" id="email"/>
+            </div>
+          </div>
+        </div>
+        <div class="btn_container"> 
+          <button class="back_button"> <a href="./signup1.html">Quay lại</a></button>
+          <button class="submit_button" type="submit"> <a href="./signup3.html">(2/3) Tiếp theo</a></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>

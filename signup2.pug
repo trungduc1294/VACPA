@@ -1,0 +1,116 @@
+doctype html 
+head 
+  title Signup Page
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href='/dist/style.css', rel='stylesheet')
+body 
+  .signup_page
+    .signup_header
+      h1 Đăng ký tài khoản 
+      span.signup_header_description
+        |Vui lòng nhập đầy đủ thông tin đăng ký. Trường có dấu 
+        span.red-asterisk * 
+        |là bắt buộc.
+    .signup_progress 
+      .completed_signup.step2
+    
+    //- signup form part 2
+    .signup_form 
+      //- form(action='/signup', method='post')
+      form(action="", method="post")
+        .form_part 
+          .form_part_title 
+            .left_bar 
+            h2 THÔNG TIN NGƯỜI ĐẠI DIỆN PHÁP LUẬT 
+          .form_part_content 
+            .form_group 
+              label(for="deputy_name").float_up_label Họ và tên *
+              input(type="text", name="deputy_name", id="deputy_name")
+            .form_group
+              label(for="deputy_date_of_birth").float_up_label Ngày sinh *
+              input(type="text", name="deputy_date_of_birth", id="deputy_date_of_birth")
+            .form_group.selection_group
+              h3 Giới tính
+              .selection_input
+                .male
+                  input#male(type="radio", name="sex")
+                  label(for="male") Nam 
+                .female
+                  input#female(type="radio", name="sex")
+                  label(for="female") Nữ
+                .orther
+                  input#orther(type="radio", name="sex")
+                  label(for="orther") Nước ngoài
+            .form_group 
+              label.float_up_label(for="duty") Chức vụ *
+              select#duty.selection_input(name="duty") 
+                option(value="")   
+                option(value="1") 1 
+                option(value="2") 2
+            .form_group 
+              label(for="KTV_number").float_up_label Số chứng chỉ KTV *
+              input(type="text", name="KTV_number", id="KTV_number")
+            .form_group 
+              label(for="license_date").float_up_label Ngày cấp *
+              input(type="date", name="license_date", id="license_date")
+            .form_group 
+              label(for="phone_number").float_up_label Số điện thoại *
+              input(type="text", name="phone_number", id="phone_number")
+            .form_group 
+              label(for="permanent_phone_number").float_up_label Số điện thoại cố định *
+              input(type="text", name="permanent_phone_number", id="permanent_phone_number")
+            .form_group
+              label(for="email").float_up_label Email *
+              input(type="text", name="email", id="email")
+        .form_part
+          .form_part_title 
+            .left_bar 
+            h2 THÔNG TIN NGƯỜI ĐẠI DIỆN LIÊN LẠC 
+          .form_part_content
+            .form_group 
+              label(for="deputy_name").float_up_label Họ và tên *
+              input(type="text", name="deputy_name", id="deputy_name")
+            .form_group
+              label(for="deputy_date_of_birth").float_up_label Ngày sinh *
+              input(type="text", name="deputy_date_of_birth", id="deputy_date_of_birth")
+            .form_group.selection_group
+              h3 Giới tính
+              .selection_input
+                .male
+                  input#male(type="radio", name="sex")
+                  label(for="male") Nam 
+                .female
+                  input#female(type="radio", name="sex")
+                  label(for="female") Nữ
+                .orther
+                  input#orther(type="radio", name="sex")
+                  label(for="orther") Nước ngoài
+            .form_group 
+              label.float_up_label(for="duty") Chức vụ *
+              select#duty.selection_input(name="duty") 
+                option(value="")   
+                option(value="1") 1 
+                option(value="2") 2
+            .form_group 
+              label(for="KTV_number").float_up_label Số chứng chỉ KTV *
+              input(type="text", name="KTV_number", id="KTV_number")
+            .form_group 
+              label(for="license_date").float_up_label Ngày cấp *
+              input(type="date", name="license_date", id="license_date")
+            .form_group 
+              label(for="phone_number").float_up_label Số điện thoại *
+              input(type="text", name="phone_number", id="phone_number")
+            .form_group 
+              label(for="permanent_phone_number").float_up_label Số điện thoại cố định *
+              input(type="text", name="permanent_phone_number", id="permanent_phone_number")
+            .form_group
+              label(for="email").float_up_label Email *
+              input(type="text", name="email", id="email")
+        .btn_container 
+          button.back_button 
+            a(href="./signup1.html") Quay lại
+          button(type="submit").submit_button 
+            a(href="./signup3.html") (2/3) Tiếp theo
+        
+        
+

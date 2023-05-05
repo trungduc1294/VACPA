@@ -1,0 +1,24 @@
+doctype html 
+head 
+  title Signup Page
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href='/dist/style.css', rel='stylesheet')
+body 
+  .signup_page
+    .signup_header
+      h1 Xác nhận đăng ký tài khoản
+      span.signup_header_description
+        |Vui lòng xác nhận đăng ký tài khoản.
+    .signup_progress 
+      .completed_signup.step3
+    
+    //- signup form part 2
+    .signup_form 
+      //- form(action='/signup', method='post')
+      form(action="", method="post")
+        p.confirm_text Chúng tôi đã gửi thông báo xác nhận qua địa chỉ Email Nguyenvana@gmail.com
+        button(type="submit").get_email_button
+            a(href="#") Gửi lại thông báo
+        span.change_email Anh/Chị muốn thay đổi email nhận thông báo, vui lòng Thay đổi Email
+        
+

@@ -1,0 +1,19 @@
+.drop_down {
+  @apply relative;
+  @apply inline-block;
+
+  .drop_down_content {
+    @apply hidden;
+    @apply absolute;
+    @apply bg-slate-500;
+    @apply min-w-[160px];
+    @apply px-3 py-4;
+    @apply z-50;
+  }
+
+  &:hover {
+    .dropdown-content {
+      @apply block;
+    }
+  }
+}

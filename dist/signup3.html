@@ -1,0 +1,62 @@
+<!DOCTYPE html >
+<head> 
+  <title>Signup Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="/dist/style.css" rel="stylesheet"/>
+</head>
+<body> 
+  <div class="signup_page">
+    <div class="signup_header">
+      <h1>Đăng ký tài khoản </h1><span class="signup_header_description">Vui lòng nhập đầy đủ thông tin đăng ký. Trường có dấu <span class="red-asterisk">* </span>là bắt buộc.</span>
+    </div>
+    <div class="signup_progress"> 
+      <div class="completed_signup step3"></div>
+    </div>
+    <div class="signup_form"> 
+      <form action="" method="post">
+        <div class="form_part"> 
+          <div class="form_part_title"> 
+            <div class="left_bar"> </div>
+            <h2>TẢI FILE XÁC NHẬN</h2>
+          </div>
+          <div class="form_part_content"> 
+            <div class="description"> 
+              <p>Tổ chức nộp hồ sơ phải chịu trách nhiệm hoàn toàn trước pháp luật về tính chính xác của hồ sơ nộp trực tuyến với hồ sơ gốc.</p>
+            </div>
+            <div class="form_group">
+              <label class="non_float_up_label" for="KTV_certificate">Bản sao chứng chỉ KTV của người đại diện pháp luật *</label>
+              <input type="file" name="KTV_certificate" id="KTV_certificate"/>
+            </div>
+            <div class="form_group">
+              <label class="non_float_up_label" for="confirm_document">Giấy chứng nhận đăng ký kinh doanh *</label>
+              <input type="file" name="confirm_document" id="confirm_document"/>
+            </div>
+            <div class="form_group">
+              <label class="non_float_up_label" for="confirm_document_2">Giấy chứng nhận đăng ký kinh doanh *</label>
+              <input type="file" name="confirm_document_2" id="confirm_document_2"/>
+            </div>
+            <div class="form_group">
+              <label class="non_float_up_label" for="eligibility_certificate">Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kiểm toán *</label>
+              <input type="file" name="eligibility_certificate" id="eligibility_certificate"/>
+            </div>
+            <div class="form_group">
+              <label class="non_float_up_label" for="logo">Logo *</label>
+              <input type="file" name="logo" id="logo"/>
+            </div>
+            <div class="confirmation"> 
+              <p>Tôi xin chịu trách nhiệm về sự chính xác và tính pháp lý của những thông tin đã kê khai.</p>
+              <div class="confirm_checkbox"> 
+                <input type="checkbox" name="confirm" id="confirm"/>
+                <label for="confirm">Tôi tự nguyện đăng ký thành viên hội viên của VACPA.</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn_container"> 
+          <button class="back_button"> <a href="./signup1.html">Quay lại</a></button>
+          <button class="submit_button" type="submit"> <a href="./signup4.html">(3/3) Tiếp theo</a></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>

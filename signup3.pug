@@ -1,0 +1,55 @@
+doctype html 
+head 
+  title Signup Page
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  link(href='/dist/style.css', rel='stylesheet')
+body 
+  .signup_page
+    .signup_header
+      h1 Đăng ký tài khoản 
+      span.signup_header_description
+        |Vui lòng nhập đầy đủ thông tin đăng ký. Trường có dấu 
+        span.red-asterisk * 
+        |là bắt buộc.
+    .signup_progress 
+      .completed_signup.step3
+    
+    //- signup form part 2
+    .signup_form 
+      //- form(action='/signup', method='post')
+      form(action="", method="post")
+        .form_part 
+          .form_part_title 
+            .left_bar 
+            h2 TẢI FILE XÁC NHẬN
+          .form_part_content 
+            .description 
+              p Tổ chức nộp hồ sơ phải chịu trách nhiệm hoàn toàn trước pháp luật về tính chính xác của hồ sơ nộp trực tuyến với hồ sơ gốc.
+            .form_group
+              label(for="KTV_certificate").non_float_up_label Bản sao chứng chỉ KTV của người đại diện pháp luật *
+              input(type="file" name="KTV_certificate" id="KTV_certificate")
+            .form_group
+              label(for="confirm_document").non_float_up_label Giấy chứng nhận đăng ký kinh doanh *
+              input(type="file" name="confirm_document" id="confirm_document")
+            .form_group
+              label(for="confirm_document_2").non_float_up_label Giấy chứng nhận đăng ký kinh doanh *
+              input(type="file" name="confirm_document_2" id="confirm_document_2")
+            .form_group
+              label(for="eligibility_certificate").non_float_up_label Giấy chứng nhận đủ điều kiện kinh doanh dịch vụ kiểm toán *
+              input(type="file" name="eligibility_certificate" id="eligibility_certificate")
+            .form_group
+              label(for="logo").non_float_up_label Logo *
+              input(type="file" name="logo" id="logo")
+            .confirmation 
+              p Tôi xin chịu trách nhiệm về sự chính xác và tính pháp lý của những thông tin đã kê khai.
+              .confirm_checkbox 
+                input(type="checkbox" name="confirm" id="confirm")
+                label(for="confirm") Tôi tự nguyện đăng ký thành viên hội viên của VACPA.
+        .btn_container 
+          button.back_button 
+            a(href="./signup1.html") Quay lại
+          button(type="submit").submit_button 
+            a(href="./signup4.html") (3/3) Tiếp theo
+        
+        
+

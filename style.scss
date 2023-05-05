@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  @import './scss/base/form';
+  @import './scss/base/signinSignupHeader';
+}
+@tailwind utilities;
+@layer utilities {
+  @import './scss/base/utilities';
+}
+
+@import './scss/components';
+@import './scss/layout';
+@import './scss/pages';

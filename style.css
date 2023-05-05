@@ -1,0 +1,364 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  .form-control {
+    @apply border border-neutral-300 rounded;
+    @apply text-text-secondary;
+    @apply pl-4;
+  }
+  .form-control-focus-no-outline {
+    @apply outline-none;
+  }
+  .red-asterisk {
+    @apply text-error-300;
+    @apply body-small-regular;
+  }
+  .signin-signup-header {
+    @apply bg-background;
+    @apply py-6;
+    @apply px-5 lg:px-24;
+  }
+  .signup_header {
+    @apply bg-background;
+    @apply py-6;
+    @apply px-5 lg:px-24;
+  }
+}
+@tailwind utilities;
+@layer utilities {
+  .h1-bold {
+    @apply text-5xl font-bold leading-17;
+  }
+  .h1-semibold {
+    @apply text-5xl font-semibold leading-17;
+  }
+  .h2-bold {
+    @apply text-40 font-bold leading-15;
+  }
+  .h2-semibold {
+    @apply text-40 font-semibold leading-15;
+  }
+  .h3-bold {
+    @apply text-32 font-bold leading-[2.875rem];
+  }
+  .h3-semibold {
+    @apply text-32 font-semibold leading-[2.875rem];
+  }
+  .h3-regular {
+    @apply text-32 font-normal leading-[2.875rem];
+  }
+  .h4-bold {
+    @apply text-24 font-bold leading-9;
+  }
+  .h4-semibold {
+    @apply text-24 font-semibold leading-9;
+  }
+  .h4-regular {
+    @apply text-24 font-normal leading-9;
+  }
+  .h5-bold {
+    @apply text-20 font-bold leading-[1.875rem];
+  }
+  .h5-semibold {
+    @apply text-20 font-semibold leading-[1.875rem];
+  }
+  .h5-regular {
+    @apply text-20 font-normal leading-[1.875rem];
+  }
+  .h5-uppercase-regular {
+    @apply text-20 font-normal leading-[1.875rem] uppercase;
+  }
+  .body-bold {
+    @apply text-base font-bold leading-6;
+  }
+  .body-semibold {
+    @apply text-base font-semibold leading-6;
+  }
+  .body-regular {
+    @apply text-base font-normal leading-6;
+  }
+  .body-uppercase {
+    @apply text-base font-normal leading-6 uppercase;
+  }
+  .body-underline {
+    @apply text-base font-normal leading-6 underline;
+  }
+  .body-small-bold {
+    @apply text-sm font-bold leading-[1.375rem];
+  }
+  .body-small-semibold {
+    @apply text-sm font-semibold leading-[1.375rem];
+  }
+  .body-small-regular {
+    @apply text-sm font-normal leading-[1.375rem];
+  }
+  .body-small-uppercase {
+    @apply text-sm font-normal leading-[1.375rem] uppercase;
+  }
+  .body-small-underline {
+    @apply text-sm font-normal leading-[1.375rem] underline;
+  }
+  .small-bold {
+    @apply text-xs font-bold leading-[1.125rem];
+  }
+  .small-semibold {
+    @apply text-xs font-semibold leading-[1.125rem];
+  }
+  .small-regular {
+    @apply text-xs font-normal leading-[1.125rem];
+  }
+  .small-uppercase {
+    @apply text-xs font-normal leading-[1.125rem] uppercase;
+  }
+  .small-underline {
+    @apply text-xs font-normal leading-[1.125rem] underline;
+  }
+  .tiny-bold {
+    @apply text-xxs font-bold leading-4;
+  }
+  .tiny-semibold {
+    @apply text-xxs font-semibold leading-4;
+  }
+  .tiny-regular {
+    @apply text-xxs font-normal leading-4;
+  }
+  .tiny-uppercase {
+    @apply text-xxs font-normal leading-4 uppercase;
+  }
+  .tiny-underline {
+    @apply text-xxs font-normal leading-4 underline;
+  }
+  .title-bold {
+    @apply text-28 font-bold leading-[2.125rem];
+  }
+  .title-semibold {
+    @apply text-28 font-semibold leading-[2.125rem];
+  }
+  .title-regular {
+    @apply text-28 font-normal leading-[2.125rem];
+  }
+}
+.button-primary {
+  @apply bg-primary-700 text-neutral-white body-semibold py-2 rounded;
+}
+
+.login_page {
+  @apply border border-neutral-300;
+  @apply mx-auto my-16;
+  @apply lg:max-w-[730px];
+}
+.login_page .login_header h1 {
+  @apply text-primary-900;
+  @apply pb-2.5;
+  @apply h5-bold lg:h3-bold;
+}
+.login_page .login_header .login_signup_question {
+  @apply flex;
+}
+.login_page .login_header .login_signup_question span {
+  @apply text-text-secondary;
+}
+.login_page .login_header .login_signup_question a {
+  @apply text-primary-700;
+}
+.login_page .login_form {
+  @apply py-12 px-5;
+  @apply mx-auto;
+  @apply w-full lg:w-9/12;
+}
+.login_page .login_form form {
+  @apply grid grid-cols-1 gap-4;
+}
+.login_page .login_form form input {
+  @apply w-full;
+  @apply h-12;
+}
+.login_page .login_form form input:focus {
+  @apply outline-none;
+}
+.login_page .login_form form button {
+  @apply px-5 py-2;
+  @apply w-full lg:w-40;
+}
+.login_page .login_form form a {
+  @apply text-secondary-300;
+  @apply body-semibold;
+}
+
+.signup_page {
+  @apply border border-neutral-300;
+  @apply mx-auto;
+}
+.signup_page .signup_header h1 {
+  @apply h5-bold;
+  @apply text-primary-900;
+}
+.signup_page .signup_header .signup_header_description {
+  @apply body-small-regular;
+  @apply text-text-primary;
+}
+.signup_page .signup_progress {
+  @apply h-1 w-full;
+  @apply flex;
+  @apply bg-neutral-300;
+}
+.signup_page .signup_progress .completed_signup {
+  @apply h-1;
+  @apply inline-block;
+  @apply bg-primary-500;
+}
+.signup_page .signup_progress .step1 {
+  @apply w-1/3;
+}
+.signup_page .signup_progress .step2 {
+  @apply w-2/3;
+}
+.signup_page .signup_progress .step3 {
+  @apply w-full;
+}
+.signup_page .role_selection_mobile {
+  @apply px-5;
+  @apply w-full;
+  @apply my-6;
+}
+.signup_page .role_selection_mobile #role_selection {
+  @apply form-control;
+  @apply py-3;
+  @apply body-semibold;
+  @apply text-text-primary;
+  @apply w-full;
+}
+.signup_page .signup_form {
+  @apply px-5;
+  @apply mt-6;
+}
+.signup_page .signup_form form {
+  @apply grid grid-cols-1 gap-4;
+}
+.signup_page .signup_form form .form_part {
+  @apply grid grid-cols-1 gap-4;
+}
+.signup_page .signup_form form .form_part .form_part_title {
+  @apply flex gap-2;
+}
+.signup_page .signup_form form .form_part .form_part_title .left_bar {
+  @apply h-6;
+  @apply border-l-4 border-primary-700;
+}
+.signup_page .signup_form form .form_part .form_part_title h2 {
+  @apply body-bold;
+  @apply text-text-primary;
+  @apply pl-2;
+}
+.signup_page .signup_form form .form_part .form_part_content {
+  @apply grid grid-cols-1 gap-4;
+}
+.signup_page .signup_form form .form_part .form_part_content .description p {
+  @apply text-text-primary;
+  @apply italic;
+}
+.signup_page .signup_form form .form_part .form_part_content .form_group {
+  @apply relative;
+}
+.signup_page .signup_form form .form_part .form_part_content .form_group .non_float_up_label {
+  @apply text-text-primary;
+  @apply mb-2;
+}
+.signup_page .signup_form form .form_part .form_part_content .form_group .float_up_label {
+  @apply pointer-events-none;
+  @apply absolute;
+  @apply body-small-regular;
+  @apply text-text-secondary;
+  @apply left-4 top-3;
+}
+.signup_page .signup_form form .form_part .form_part_content .form_group input {
+  @apply form-control;
+  @apply py-3;
+  @apply px-4;
+  @apply w-full;
+}
+.signup_page .signup_form form .form_part .form_part_content .form_group .selection_input {
+  @apply form-control;
+  @apply py-3;
+  @apply px-4;
+  @apply w-full;
+}
+.signup_page .signup_form form .form_part .form_part_content .confirmation p {
+  @apply text-text-primary;
+  @apply body-regular;
+  @apply mb-4;
+}
+.signup_page .signup_form form .form_part .form_part_content .confirmation .confirm_checkbox {
+  @apply flex gap-4;
+}
+.signup_page .signup_form form .form_part .form_part_content .confirmation .confirm_checkbox input {
+  @apply w-6 h-6;
+}
+.signup_page .signup_form form .form_part .form_part_content .confirmation .confirm_checkbox label {
+  @apply body-regular;
+  @apply text-text-secondary;
+}
+.signup_page .signup_form form .form_part .form_part_content .selection_group h3 {
+  @apply body-bold;
+  @apply text-text-primary;
+}
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input {
+  @apply flex gap-4;
+}
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input .domestic,
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input .foreign,
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input .male,
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input .female,
+.signup_page .signup_form form .form_part .form_part_content .selection_group .selection_input .orther {
+  @apply flex gap-1;
+}
+.signup_page .signup_form form .btn_container {
+  @apply flex;
+  @apply justify-between;
+}
+.signup_page .signup_form form .btn_container .back_button {
+  @apply py-3;
+  @apply text-primary-700;
+  @apply body-semibold;
+  @apply border border-primary-700;
+  @apply rounded;
+  @apply w-12/25;
+}
+.signup_page .signup_form form .btn_container .submit_button {
+  @apply bg-primary-700;
+  @apply py-3;
+  @apply text-neutral-white;
+  @apply body-semibold;
+  @apply rounded;
+  @apply w-12/25;
+}
+.signup_page .signup_form form .btn_container .step1 {
+  @apply w-full;
+}
+.signup_page .signup_form form .confirm_text {
+  @apply body-semibold;
+  @apply text-text-primary;
+  @apply text-center;
+}
+.signup_page .signup_form form .get_email_button {
+  @apply button-primary;
+  @apply w-4/5;
+  @apply text-neutral-white;
+  @apply body-semibold;
+}
+
+.drop_down {
+  @apply relative;
+  @apply inline-block;
+}
+.drop_down .drop_down_content {
+  @apply hidden;
+  @apply absolute;
+  @apply bg-slate-500;
+  @apply min-w-[160px];
+  @apply px-3 py-4;
+  @apply z-50;
+}
+.drop_down:hover .dropdown-content {
+  @apply block;
+}
